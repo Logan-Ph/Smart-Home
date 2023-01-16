@@ -2,6 +2,8 @@ import sys,face_recognition,os,sys,cv2,math,serial
 import numpy as np
 from time import sleep
 
+
+
 def face_confidence(face_distance, face_match_threshold=0.6):
     range = (1.0 - face_match_threshold)
     linear_val = (1.0 - face_distance) / (range * 2.0)
