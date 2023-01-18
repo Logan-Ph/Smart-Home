@@ -1,8 +1,7 @@
 from neuralintents import GenericAssistant
 import speech_recognition
 import pyttsx3 as tts
-import sys,json,random,webbrowser,time,datetime,face_recognition,os,sys,cv2,math,serial,requests,multiprocessing
-import numpy as np
+import sys,json,random,webbrowser,time,datetime,face_recognition,os,cv2,math,serial,requests
 from bs4 import BeautifulSoup as soup
 from AppOpener import run
 
